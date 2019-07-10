@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF8">
+<title>BoostCourse WebProject</title>
+	<style>
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+	body {
+		text-align: center;
+    background: #e0e0e0;
+	}
+  header, section, footer {
+    background: #fafafa;
+    margin: 10px;
+    padding: 20px;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    margin: 10px 0;
+  }
+	header {
+		border: 1px solid white;
+	}
+  nav {
+    height: 40px;
+  }
+  ul {
+    float: right;
+  }
+  ul::after {
+    clear: both;
+  }
+	li {
+    display: inline;
+		margin: 10px 20px;
+	}
+  .button {
+    display: inline-block;
+    width: 100px;
+		padding: 10px 0;
+		cursor: pointer;
+		font-size: 16px;
+		color: white;
+		background: #4caf50;
+    border: none;
+    box-shadow: 3px 3px 6px #999999;
+  }
+  .button:hover {
+    background: #087f23;
+  }
+	section {
+		text-align: left;
+		padding: 20px 200px;
+	}
+	#portfolio-wrapper {
+		padding: 20px;
+	}
+	.card {
+		display: inline-block;
+		background: #ffffff;
+		border: 1px solid #e0e0e0;
+		box-shadow: 6px 6px 12px #e0e0e0;
+		width: 320px;
+		height: 180px;
+		padding: 15px;
+	}
+	.card-title {}
+	.card-period {}
+	.card-text {
+		font-size: 14px;
+		font-weight: 400;
+		margin: 10px 0;
+	}
+	.card-action {
+    display: inline-block;
+    width: 80px;
+		padding: 8px 0;
+		cursor: pointer;
+		font-size: 16px;
+		color: white;
+		background: #9e9e9e;
+    border: none;
+    box-shadow: 3px 3px 6px #999999;
+		font-size: 12px;
+		text-align: center;
+  }
+  .card-action:hover {
+    background: #087f23;
+  }
+
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+        <li><a href="#" class="button">홈</a></li>
+        <li><a href="#" class="button">자기소개</a></li>
+        <li><a href="#" class="button">내사진</a></li>
+        <li><a href="#" class="button">현재시간</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section>
+		<article class="">
+			<h3>간단한 자기소개</h3>
+			<p>안녕하세요. 웹 개발을 좋아하는 개발자 서동성입니다.</p>
+		</article>
+
+		<article class="">
+			<h3>앞으로의 진로</h3>
+			<p>현재 SK Hynix에서 EAI 개발을 담당하고 있지만 조만간 다시 웹 개발로 복귀할 예정.</p>
+		</article>
+
+		<article class="">
+			<h3>TOY</h3>
+			<div id="portfolio-wrapper">
+				<div class="card">
+					<h4 class="card-title">Vue.js를 이용한 HackerNews SPA 개발</h4>
+					<h6 class="card-period">2019.06.22 ~ 2019.06.26</h6>
+					<p class="card-text">온라인 강의 사이트 인프런에서 "Vue.js 완벽 가이드"라는 강의를 보고 HackerNews API를 이용해 SPA를 개발하는 실습</p>
+					<a href="" class="card-action">Repository</a>
+				</div>
+
+				<div class="card">
+					<h4 class="card-title">아트박스 홈페이지 리뉴얼</h4>
+					<h6 class="card-period">2019.03.21 ~ 2019.04.08</h6>
+					<p class="card-text">아트박스의 홈페이지의 상품데이터를 크롤링하여 구축한 데이터를 기반으로 리뉴얼 사이트 제작. SPA 방식으로 동작</p>
+					<a href="" class="card-action">Repository</a>
+				</div>
+			</div>
+		</article>
+
+	</section>
+
+  <footer>
+    <h5>Web Developer DongSeong, Seo</h5>
+    <h6>Educated At Hanyang Univ ERICA</h6>
+    <a href="#" class="button">Github</a>
+  </footer>
+
+</body>
+</html>

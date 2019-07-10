@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF8">
+<title>BoostCourse WebProject</title>
+	<style>
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+	body {
+		text-align: center;
+    background: #e0e0e0;
+	}
+  header, section, footer {
+    background: white;
+    margin: 10px;
+    padding: 20px;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    margin: 10px 0;
+  }
+	header {
+		border: 1px solid white;
+	}
+  nav {
+    height: 40px;
+  }
+  ul {
+    float: right;
+  }
+  ul::after {
+    clear: both;
+  }
+	li {
+    display: inline;
+		margin: 10px 20px;
+	}
+  .button {
+    display: inline-block;
+    width: 100px;
+		padding: 10px 0;
+		cursor: pointer;
+		font-size: 16px;
+		color: white;
+		background: #4caf50;
+    border: none;
+    box-shadow: 3px 1px 0px #e0e0e0;
+  }
+  .button:hover {
+    background: #087f23;
+  }
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+        <li><a href="#" class="button">홈</a></li>
+        <li><a href="#" class="button">자기소개</a></li>
+        <li><a href="#" class="button">내사진</a></li>
+        <li><a href="#" class="button">현재시간</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section>
+		<h1>안녕하세요 저는 개발자 서동성이라고 합니다.</h1>
+    <a href="#" class="button">자기소개</a>
+    <a href="#" class="button">내사진</a>
+	</section>
+
+  <footer>
+    <h5>Web Developer DongSeong, Seo</h5>
+    <h6>Educated At Hanyang Univ ERICA</h6>
+    <a href="#" class="button">Github</a>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF8">
+<title>BoostCourse WebProject</title>
+	<style>
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+	body {
+		text-align: center;
+    background: #e0e0e0;
+	}
+  header, section, footer {
+    background: #fafafa;
+    margin: 10px;
+    padding: 20px;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    margin: 10px 0;
+  }
+	header {
+		border: 1px solid white;
+	}
+  nav {
+    height: 40px;
+  }
+  ul {
+    float: right;
+  }
+  ul::after {
+    clear: both;
+  }
+	li {
+    display: inline;
+		margin: 10px 20px;
+	}
+  .button {
+    display: inline-block;
+    width: 100px;
+		padding: 10px 0;
+		cursor: pointer;
+		font-size: 16px;
+		color: white;
+		background: #4caf50;
+    border: none;
+    box-shadow: 3px 3px 6px #999999;
+  }
+  .button:hover {
+    background: #087f23;
+  }
+	section {
+		text-align: left;
+		padding: 20px 200px;
+	}
+	.photo-wrapper {
+		text-align: center;
+	}
+	.photo, .photo-info {
+		display: inline-block;
+	}
+	.photo {
+		width: 40%;
+		padding: 20px;
+		height: 300px;
+	}
+	img {
+		height: 200px;
+	}
+	.photo-info {
+		border: 1px solid red;
+		height: 300px;
+	}
+	img {
+		border: 3px solid grey;
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+        <li><a href="#" class="button">홈</a></li>
+        <li><a href="#" class="button">자기소개</a></li>
+        <li><a href="#" class="button">내사진</a></li>
+        <li><a href="#" class="button">현재시간</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section>
+		<article class="photo-wrapper" style="border:1px solid green;">
+			<div class="photo" style="border:1px solid green;">
+				<img src="http://blogfiles.naver.net/MjAxNzAxMDVfMTYy/MDAxNDgzNTYyNzMxNzYy.N-SUM8e8zqQq35c7vEOBzyNX23fJMzkI7ds5XO91HB8g._vjin9yqBbNGucBmiDZ_1qrjw3DesK2-wxIrZgUdfk0g.JPEG.yhk727/%ED%8A%B8%EC%99%80%EC%9D%B4%EC%8A%A4_%EB%82%98%EC%97%B0_%EB%B2%A0%EC%8A%A4%ED%8A%B8_%EA%B3%A0%ED%99%94%EC%A7%88_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EB%AA%A8%EC%9D%8C01.jpg"
+
+				alt="">
+			</div>
+			<div class="photo-info" style="border:1px solid green;">
+				<h4>사진제목</h4>
+			</div>
+		</article>
+		<article class="photo-wrapper">
+			<div class="photo">
+				<img src="http://blogfiles.naver.net/MjAxNzAxMDVfMTYy/MDAxNDgzNTYyNzMxNzYy.N-SUM8e8zqQq35c7vEOBzyNX23fJMzkI7ds5XO91HB8g._vjin9yqBbNGucBmiDZ_1qrjw3DesK2-wxIrZgUdfk0g.JPEG.yhk727/%ED%8A%B8%EC%99%80%EC%9D%B4%EC%8A%A4_%EB%82%98%EC%97%B0_%EB%B2%A0%EC%8A%A4%ED%8A%B8_%EA%B3%A0%ED%99%94%EC%A7%88_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EB%AA%A8%EC%9D%8C01.jpg"
+				height="200"
+				alt="">
+			</div>
+			<div class="photo-info">
+				<h4>사진제목</h4>
+			</div>
+		</article>
+
+	</section>
+
+  <footer>
+    <h5>Web Developer DongSeong, Seo</h5>
+    <h6>Educated At Hanyang Univ ERICA</h6>
+    <a href="#" class="button">Github</a>
+  </footer>
+
+</body>
+</html>
